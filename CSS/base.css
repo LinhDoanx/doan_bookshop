@@ -1,0 +1,42 @@
+:root {
+    --text-color: #333;
+    --primary-color: #ed75b7;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* font-size: 100%;  tương ứng với 1rem = 16px  */
+    font-size: 62.5%; /* tương ứng với 1rem = 10px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+    
+.grid {
+    width:1200px;
+    max-width:100%;
+    margin: 0 auto;
+}
+
+.grid__full-with {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.btn {
+    background-color: var(--primary-color);
+
+    border: 1px solid #ccc;
+    height: 36px;
+}
+
+

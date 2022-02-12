@@ -1,0 +1,154 @@
+
+
+
+.header {
+    height: 120px;
+    background-image: linear-gradient(0,#fcd1e0,#ed75b7);
+}
+
+/* header-with-search */
+.header-with-search {
+    display: flex;
+    height:85px;
+    margin-top: 12px;
+    align-items: center;
+    position: relative;
+}
+.header-logo {
+    width: 200px;
+}
+
+.header-logo-img {
+    width:30px;
+}
+
+.header-logo-link {
+    font-size:1.8rem;
+    text-decoration: none;
+}
+
+.header-search {
+    background-color: #fff;
+    flex: 1; /* kế thừa tất phần ngang còn lại trên thanh header-with-search */
+    height:40px;
+    display: flex;
+}
+
+.header-search-input {
+    flex: 1;
+    height:100%;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    padding: 0 16px;
+}
+
+.header-search-btn {
+    background-color: var(--primary-color);
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 500;
+    border:none;
+    outline: none;
+    align-items: center;
+    padding: 0 8px;
+    margin: 2px;
+}
+
+.header-search-btn:hover {
+    background-color:#fa58b1;
+    color: #fff;
+}
+
+.header-cart {
+    margin: 0 20px;
+}
+
+.header__cart-icon {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.login-signin {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.login-signin-item {
+    display: inline-block;
+    font-size:1.6rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin:0 8px;
+
+}
+
+.user-icon {
+    font-size:1.4rem;
+    color: var(--text-color);
+}
+
+.item-separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 113px;
+    top: 38px;
+    height: 12px;
+    width: 1px;
+    background-color: var(--text-color);
+}
+
+
+/* header-navbar */
+.navbar-list {
+    list-style: none;
+    margin: 0 220px;
+}
+
+.navbar-list-item {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.navbar-item-link:hover {
+    color: rgb(13, 45, 255);
+}
+
+.navbar-item-link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.icon-down {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+/* ----- CONTAINER -----*/
+.container {
+    /* position: relative; */
+}
+/* slider */
+.slider {
+    display:flex;
+    padding: 0;
+    background-size: cover;
+    /* position: relative; */
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.slider-item img{
+    /* position: absolute; */
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
